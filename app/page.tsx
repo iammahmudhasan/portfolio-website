@@ -1,7 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
-import { GlobalScale } from "@/components/GlobalScale";
 import { SelectedWork } from "@/components/SelectedWork";
 import { Research } from "@/components/Research";
 import { Experience } from "@/components/Experience";
@@ -20,19 +19,16 @@ export default function Home() {
 
       {/* Main Content Assembly */}
       <main className="flex-1">
-        {/* Hero Section */}
+        {/* Firstbase-Style 3D Halftone Globe Hero Section */}
         <Hero />
 
         {/* 01 About Section */}
         <About />
 
-        {/* Global Scale & Distributed Infrastructure (3D Interactive Globe) */}
-        <GlobalScale />
-
-        {/* 02 Selected Work */}
+        {/* 02 Selected Work (Flagship Systems) */}
         <SelectedWork />
 
-        {/* 03 Research & Continuum */}
+        {/* 03 Research & Stability-Plasticity Retention Simulator */}
         <Research />
 
         {/* 04 Experience & Leadership Timeline */}
