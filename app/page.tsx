@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
+import { GlobalScale } from "@/components/GlobalScale";
 import { SelectedWork } from "@/components/SelectedWork";
 import { Research } from "@/components/Research";
 import { Experience } from "@/components/Experience";
@@ -24,6 +25,9 @@ export default function Home() {
 
         {/* 01 About Section */}
         <About />
+
+        {/* Global Scale & Distributed Infrastructure (3D Interactive Globe) */}
+        <GlobalScale />
 
         {/* 02 Selected Work */}
         <SelectedWork />
